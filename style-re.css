@@ -1,0 +1,48 @@
+/*OUDOMSAVANH XAYAVONG ROLL: 15781A05D4*/
+div.container {
+        border: 1px solid gray;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Source Sans Pro";
+        background-color: #eaeaea;
+      }
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #1b4f49;
+    clear: left;
+    text-align: center;
+}
+
+.border-header{
+    margin: auto;
+    width: 60%;
+    border: 3px solid white;
+    padding: 10px;
+}
+h2-mod{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+color:#1b4f49;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
